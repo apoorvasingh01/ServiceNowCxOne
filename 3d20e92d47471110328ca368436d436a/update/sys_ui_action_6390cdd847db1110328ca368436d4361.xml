@@ -11,10 +11,11 @@
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>false</form_context_menu>
+        <form_context_menu>true</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -25,7 +26,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <messages>Saves and tests the validity of the Checkmarx Integration credentials</messages>
+        <messages>Saves and tests the validity of the Checkmarx One Integration credentials.</messages>
         <name>Save and Test Credentials</name>
         <onclick>clientValidation()</onclick>
         <order>100</order>
@@ -99,15 +100,15 @@ function serverSide() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6390cdd847db1110328ca368436d4361</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Save and Test Credentials</sys_name>
         <sys_overrides/>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_ui_action_6390cdd847db1110328ca368436d4361</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-06 07:53:57</sys_updated_on>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-03-15 06:58:31</sys_updated_on>
         <table>x_chec3_chexone_checkmarxone_configuration</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
