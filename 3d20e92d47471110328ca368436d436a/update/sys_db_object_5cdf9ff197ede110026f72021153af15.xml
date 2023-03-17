@@ -24,17 +24,14 @@
         <sys_id>5cdf9ff197ede110026f72021153af15</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>CheckmarxOne  AppVul Item Import</sys_name>
-        <sys_package display_value="">3d20e92d47471110328ca368436d436a</sys_package>
+        <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
-        <sys_scope display_value="">3d20e92d47471110328ca368436d436a</sys_scope>
+        <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_db_object_5cdf9ff197ede110026f72021153af15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-11-10 12:03:46</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="">db4c9e4647875110328ca368436d4345</user_role>
+        <user_role display_value="x_chec3_chexone.checkmarxone_appvul_item_import_user" name="x_chec3_chexone.checkmarxone_appvul_item_import_user">db4c9e4647875110328ca368436d4345</user_role>
         <ws_access>true</ws_access>
-        <extension_model/>
-        <sys_class_code/>
-        <sys_class_path/>
     </sys_db_object>
 </record_update>

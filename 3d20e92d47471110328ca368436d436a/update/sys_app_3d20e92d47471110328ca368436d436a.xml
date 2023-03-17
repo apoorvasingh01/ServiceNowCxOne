@@ -40,6 +40,7 @@
         <vendor_prefix/>
         <version>1.0.1</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d20e92d47471110328ca368436d436a"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#a672a1</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>

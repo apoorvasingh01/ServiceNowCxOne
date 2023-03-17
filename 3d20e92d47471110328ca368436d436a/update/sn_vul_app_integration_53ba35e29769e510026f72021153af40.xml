@@ -16,12 +16,12 @@
   */
 (function(integrationProcessGr){ 
     // Add any logic here to construct your integration script as necessary.
-    return new x_chec3_chexone.CheckmarxOneScanSummaryIntegration(integrationProcessGr);
+    return new x_chec3_chexone.CheckmarxOneAppVulItemIntegration(integrationProcessGr);
 })(integrationProcessGr);]]></integration_factory_script>
-        <integration_script display_value="CheckmarxOneScanSummaryIntegration">d7f2d2e447131110328ca368436d4321</integration_script>
+        <integration_script display_value="CheckmarxOneAppVulItemIntegration">891d8fed471f1110328ca368436d4334</integration_script>
         <is_template>false</is_template>
-        <name>Checkmarx One Scan Summary Integration </name>
-        <next_integration display_value="Checkmarx One Application Vulnerable Item Integration">53ba35e29769e510026f72021153af40</next_integration>
+        <name>Checkmarx One Application Vulnerable Item Integration</name>
+        <next_integration/>
         <offset/>
         <offset_type>0</offset_type>
         <processor_factory_script><![CDATA[/**
@@ -31,9 +31,9 @@
   */
 (function(integrationProcessGr){ 
     // Add any logic here to construct your report processor script as necessary.
-    return new x_chec3_chexone.CheckmarxOneScanSummaryProcessor(integrationProcessGr);
+    return new x_chec3_chexone.CheckmarxOneAppVulItemProcessor(integrationProcessGr);
 })(integrationProcessGr);]]></processor_factory_script>
-        <report_processor_script display_value="CheckmarxOneScanSummaryProcessor">ec0e828f47f42110328ca368436d433b</report_processor_script>
+        <report_processor_script display_value="CheckmarxOneAppVulItemProcessor">ba2b3da69769e510026f72021153af1b</report_processor_script>
         <report_processor_strategy>DATA_SOURCE</report_processor_strategy>
         <run_as display_value="VR System">c98e5bb253333200e8f9f745911c087a</run_as>
         <run_as_tz/>
@@ -41,23 +41,23 @@
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
         <run_separately>false</run_separately>
-        <run_start>2023-02-08 12:51:48</run_start>
+        <run_start>2023-03-16 05:00:37</run_start>
         <run_time>1970-01-01 08:00:00</run_time>
         <run_type>on_demand</run_type>
         <script><![CDATA[new sn_vul.VulnerabilityIntegrationUtils().addIntegrationRun(current);]]></script>
         <sys_class_name>sn_vul_app_integration</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-02-08 12:59:17</sys_created_on>
+        <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+        <sys_created_on>2023-03-16 05:04:28</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>e25dc64f47f42110328ca368436d431b</sys_id>
-        <sys_mod_count>44</sys_mod_count>
-        <sys_name>Checkmarx One Scan Summary Integration </sys_name>
+        <sys_id>53ba35e29769e510026f72021153af40</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Checkmarx One Application Vulnerable Item Integration</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
-        <sys_update_name>sn_vul_app_integration_e25dc64f47f42110328ca368436d431b</sys_update_name>
+        <sys_update_name>sn_vul_app_integration_53ba35e29769e510026f72021153af40</sys_update_name>
         <sys_updated_by>VR.System</sys_updated_by>
-        <sys_updated_on>2023-03-16 11:51:53</sys_updated_on>
+        <sys_updated_on>2023-03-17 07:34:34</sys_updated_on>
         <time_zone/>
         <type/>
         <upgrade_safe>false</upgrade_safe>

@@ -14,7 +14,6 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
     MSG: "CheckmarxOneAppVulItemIntegration",
 
     retrieveData: function() {
-        gs.info(this.MSG + 'retrieveData');
         var params = this._getParameters(this.PROCESS.getValue('parameters'));
         var response = "<null/>";
         if (params.run) {
@@ -61,6 +60,7 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
             var appId = '';
             var line = '';
             var ref = '';
+			var reference = '';
             var notes = '';
             var recommendedVersion = '';
             var source_file = '';
@@ -104,7 +104,6 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
                         '" line_no="' + jsonLastScanReportResp.results[item].data.nodes[0].line +
                         '" cvssScore="' + cvssScore +
                         '" recommendation="' + recommendedVersion +
-                        '" references="' + ref +
                         '" source_notes="' + notes +
                         '" sourcefile="' + apibaseurl + '/results/' + scanId + '/' + appId + '/sast' +
                         '" cvssVector="' + cvssVector +
@@ -114,6 +113,7 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
                         '" app_name="' + appname +
                         '" last_scan_date="' + lastscandate +
                         '" scan_id="' + scanId + '">' +
+						'<references><' + '![CDATA[' + reference + ']]' + '></references>' +
                         '<description><' + '![CDATA[' + jsonLastScanReportResp.results[item].description + ']]' + '></description></result>';
 
                 }
@@ -136,7 +136,6 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
                         '" package_unique_id="' + jsonLastScanReportResp.results[item].data.packageIdentifier +
                         '" recommendation="' + jsonLastScanReportResp.results[item].data.recommendedVersion +
                         '" package_name="' + jsonLastScanReportResp.results[item].data.packageIdentifier +
-                        '" references="' + ref +
                         '" source_notes="' + notes +
                         '" sourcefile="' + apibaseurl + '/sca/#/projects/' + appId + '/reports/' + scanId +
                         '/vulnerabilities/' + jsonLastScanReportResp.results[item].vulnerabilityDetails.cweId + '%3AMaven-commons-collections%3Acommons-collections-3.2.1/vulnerabilityDetails' +
@@ -146,8 +145,10 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
                         '" app_name="' + appname +
                         '" last_scan_date="' + lastscandate +
                         '" scan_id="' + scanId + '">' +
+						'<references><' + '![CDATA[' + ref + ']]' + '></references>' +
                         '<description><' + '![CDATA[' + jsonLastScanReportResp.results[item].description + ']]' + '></description></result>';
-                }
+                }  
+				//   '" references="' + ref.replace(/</g, " ") +
             }
             if (includesca) {
                 scanDetailedAll += SCAscanDetailedAll;
@@ -329,13 +330,13 @@ CheckmarxOneAppVulItemIntegration.prototype = Object.extendsObject(sn_vul.Applic
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-21 12:06:20</sys_created_on>
         <sys_id>891d8fed471f1110328ca368436d4334</sys_id>
-        <sys_mod_count>144</sys_mod_count>
+        <sys_mod_count>149</sys_mod_count>
         <sys_name>CheckmarxOneAppVulItemIntegration</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_891d8fed471f1110328ca368436d4334</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-13 12:53:28</sys_updated_on>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-03-17 06:44:52</sys_updated_on>
     </sys_script_include>
 </record_update>
