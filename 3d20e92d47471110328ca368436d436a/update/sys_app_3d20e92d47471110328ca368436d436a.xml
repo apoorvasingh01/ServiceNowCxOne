@@ -22,23 +22,23 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Checkmarx One Vulnerability Integration uses data imported from Checkmarx One Service to help determine the impact and priority of vulnerabilities in the code as well as its dependencies.</short_description>
         <source>x_chec3_chexone</source>
-        <store_correlation_id>REPOAPP0000826715</store_correlation_id>
+        <store_correlation_id>REPOAPP0000832178</store_correlation_id>
         <store_url>https://tpp.servicenow.com/sn_appstore_s</store_url>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-08 17:53:35</sys_created_on>
         <sys_id>3d20e92d47471110328ca368436d436a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
-        <sys_updated_on>2023-03-17 15:12:58</sys_updated_on>
+        <sys_updated_on>2023-03-23 06:37:07</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=3d20e92d47471110328ca368436d436a"/>
     <sys_attachment action="INSERT_OR_UPDATE">
