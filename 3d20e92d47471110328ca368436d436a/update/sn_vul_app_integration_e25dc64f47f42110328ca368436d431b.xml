@@ -5,7 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <delay>0</delay>
-        <delta_start_time>2023-03-16 00:00:00</delta_start_time>
+        <delta_start_time>2023-03-27 07:30:00</delta_start_time>
         <entered_time/>
         <instance display_value="Checkmarx One Application Vulnerability">ad7fff1c47575110328ca368436d437e</instance>
         <integration display_value="Checkmarx One Application Security">e5dffb5c47575110328ca368436d436b</integration>
@@ -50,14 +50,14 @@
         <sys_created_on>2023-02-08 12:59:17</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e25dc64f47f42110328ca368436d431b</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>Checkmarx One Scan Summary Integration </sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sn_vul_app_integration_e25dc64f47f42110328ca368436d431b</sys_update_name>
-        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
-        <sys_updated_on>2023-03-31 10:04:56</sys_updated_on>
+        <sys_updated_by>VR.System</sys_updated_by>
+        <sys_updated_on>2023-03-31 10:06:56</sys_updated_on>
         <time_zone/>
         <type/>
         <upgrade_safe>false</upgrade_safe>

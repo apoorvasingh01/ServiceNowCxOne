@@ -311,6 +311,7 @@ CheckmarxOneUtilBase.prototype = {
 				"limit": gr.getValue("limit"),
                 "import_sca": gr.getValue("import_sca") === "1",
                 "import_sast": gr.getValue("import_sast") === "1",
+				"mid_server": gs.nil(gr.mid_server) ? "" : gr.mid_server.getDisplayValue(),
             };
         } catch (err) {
             gs.error(this.MSG + " :_getConfig :Error in getting the configuration.");
@@ -332,6 +333,12 @@ CheckmarxOneUtilBase.prototype = {
                 request.setEndpoint(fullUrl);
                 request.setHttpMethod(method);
                 request.setLogLevel('all');
+				request.setRequestBody(query);
+                request.setMIDServer(config.mid_server);
+                request.setEccParameter("skip_sensor", "true");
+                request.setHttpTimeout(1200 * 1000);
+                var mid_response = request.execute();
+                mid_response.waitForResponse(1200);
                 request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 request.setRequestHeader("Accept", "application/json");
                 //Convert the object to string and set it to Request Body-
@@ -422,7 +429,12 @@ CheckmarxOneUtilBase.prototype = {
             var newHeader = "Bearer " + token;
             r.setRequestHeader("Accept", "application/json");
             r.setRequestHeader("Authorization", newHeader);
-            r.setHttpTimeout(30000);
+           // r.setHttpTimeout(30000);
+			r.setEccParameter("skip_sensor", "true");
+            r.setMIDServer(config.mid_server);
+			r.setHttpTimeout(1200 * 1000);
+            var response = r.execute();
+            response.waitForResponse(1200);
             r.setLogLevel('all');
         } catch (err) {
             gs.error(this.MSG + " :_makeRestApiCall :Error in making API call.");
@@ -492,6 +504,7 @@ CheckmarxOneUtilBase.prototype = {
                 "checkmarxone_server_url": gr.getValue("checkmarxone_server_url"),
                 "import_sca": gr.getValue("import_dast") === "1",
                 "import_sast": gr.getValue("import_sast") === "1",
+				"mid_server": gs.nil(gr.mid_server) ? "" : gr.mid_server.getDisplayValue(),
             };
             new sn_sec_int.Implementation().setConfiguration(instance, newconfig);
             return true;
@@ -516,13 +529,13 @@ CheckmarxOneUtilBase.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-21 19:26:28</sys_created_on>
         <sys_id>1980bcb147935110328ca368436d435a</sys_id>
-        <sys_mod_count>137</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_name>CheckmarxOneUtilBase</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_1980bcb147935110328ca368436d435a</sys_update_name>
         <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
-        <sys_updated_on>2023-03-16 10:53:50</sys_updated_on>
+        <sys_updated_on>2023-04-26 05:06:15</sys_updated_on>
     </sys_script_include>
 </record_update>

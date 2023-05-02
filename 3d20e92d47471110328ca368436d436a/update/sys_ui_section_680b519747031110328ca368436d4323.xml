@@ -2,163 +2,216 @@
     <sys_ui_section caption="" section_id="680b519747031110328ca368436d4323" sys_domain="global" table="x_chec3_chexone_checkmarxone_configuration" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>2c734fd347d12110328ca368436d437c</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>327c02c0976aa150026f72021153aff7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <text>Save and test your Checkmarx One integration account credentials to import scanner results into your instance. You must select SAST results, SCA results, or both.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>24734fd347d12110328ca368436d437d</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>f27c02c0976aa150026f72021153aff7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
+            <text>Select checkbox if Single Tenant is used to connect through CxOne and select MID Server to establish connection.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>b67c02c0976aa150026f72021153aff7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <text>Select this check box to manage your application vulnerability triaging in ServiceNow.</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>2c734fd347d12110328ca368436d437c</element>
+            <element>327c02c0976aa150026f72021153aff7</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>e8734fd347d12110328ca368436d4384</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>727c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>checkmarxone_server_url</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>6c734fd347d12110328ca368436d4384</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>f27c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>checkmarxone_api_base_url</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>ec734fd347d12110328ca368436d4384</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>767c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tenant</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>60734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>f67c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>client_id</element>
             <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>e0734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>7a7c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>client_secret</element>
             <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>64734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>fa7c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>import_sca</element>
             <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>e4734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>7e7c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>import_sast</element>
             <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>68734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>fe7c42c0976aa150026f72021153af00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>24734fd347d12110328ca368436d437d</element>
+            <element>f27c02c0976aa150026f72021153aff7</element>
             <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>e8734fd347d12110328ca368436d4385</sys_id>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>727c42c0976aa150026f72021153af01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>single_tenant</element>
+            <position>9</position>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>f27c42c0976aa150026f72021153af01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mid_server</element>
+            <position>10</position>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>767c42c0976aa150026f72021153af01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b67c02c0976aa150026f72021153aff7</element>
+            <position>11</position>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>f67c42c0976aa150026f72021153af01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>triaging_in_snow</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-03-06 07:58:02</sys_created_on>
-            <sys_id>6c734fd347d12110328ca368436d4385</sys_id>
+            <position>12</position>
+            <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+            <sys_created_on>2023-04-27 04:56:07</sys_created_on>
+            <sys_id>7a7c42c0976aa150026f72021153af01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_chec3_chexone_checkmarxone_configuration" sys_domain="global" view="Default view">680b519747031110328ca368436d4323</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-03-06 07:58:02</sys_updated_on>
+            <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+            <sys_updated_on>2023-04-27 04:56:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

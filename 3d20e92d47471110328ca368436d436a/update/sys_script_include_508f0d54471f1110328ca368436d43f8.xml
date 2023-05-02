@@ -63,6 +63,7 @@ CheckmarxOneConfigUtilBase.prototype = {
                 "import_sca": gr.getValue("import_sca") === "1",
                 "import_sast": gr.getValue("import_sast") === "1",
                 "triaging_in_snow": gr.getValue("triaging_in_snow") === "1",
+				"mid_server": gs.nil(gr.mid_server) ? "" : gr.mid_server.getDisplayValue(),
 
             };
 
@@ -78,13 +79,13 @@ CheckmarxOneConfigUtilBase.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-17 05:45:19</sys_created_on>
         <sys_id>508f0d54471f1110328ca368436d43f8</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>CheckmarxOneConfigUtilBase</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_508f0d54471f1110328ca368436d43f8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-02-28 04:08:31</sys_updated_on>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-04-26 05:02:17</sys_updated_on>
     </sys_script_include>
 </record_update>
