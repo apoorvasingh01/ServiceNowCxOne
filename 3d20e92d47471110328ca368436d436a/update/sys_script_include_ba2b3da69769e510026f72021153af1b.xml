@@ -63,15 +63,11 @@ CheckmarxOneAppVulItemProcessor.prototype = Object.extendsObject(sn_vul.Applicat
                             resultObj['source_recommendation'] = 'Recommended version-' + node.getAttribute('recommendation');
                         }
                         var scan_type = node.getAttribute('scan_type');
-                        if (scan_type !== 'sca') {
-                            queryData['source_entry_id'] = 'Checkmarx One' + "-" + queryData['cweId'];
-                            queryData['cwe_list'] = [{
-                                cwe_id: queryData['cweId'],
-                                name: queryData['category_name']
-                            }];
-                        }
-
-
+                        queryData['source_entry_id'] = 'Checkmarx One' + "-" + queryData['cweId'];
+                        queryData['cwe_list'] = [{
+                            cwe_id: queryData['cweId'],
+                            name: queryData['category_name']
+                        }];
                         resultObj['source_app_id'] = reportData['source_app_id'];
                         resultObj['app_name'] = reportData.app_name;
                         resultObj['scan_type'] = reportData['scan_type'];
@@ -159,13 +155,13 @@ CheckmarxOneAppVulItemProcessor.prototype = Object.extendsObject(sn_vul.Applicat
         <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
         <sys_created_on>2023-03-16 05:04:10</sys_created_on>
         <sys_id>ba2b3da69769e510026f72021153af1b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>CheckmarxOneAppVulItemProcessor</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_ba2b3da69769e510026f72021153af1b</sys_update_name>
         <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
-        <sys_updated_on>2023-05-02 04:44:10</sys_updated_on>
+        <sys_updated_on>2023-05-04 14:02:38</sys_updated_on>
     </sys_script_include>
 </record_update>
