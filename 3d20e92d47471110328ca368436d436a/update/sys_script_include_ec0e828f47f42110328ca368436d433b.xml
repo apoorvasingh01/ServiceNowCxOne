@@ -25,7 +25,7 @@ CheckmarxOneScanSummaryProcessor.prototype = Object.extendsObject(sn_vul.Applica
                         var Sastattributes = SastappNode.getAttributes();
                         //map attributes from CheckmarxOne into the servicenow scan summary table
                         sastdata['source_app_id'] = Sastattributes.app_id;
-                        sastdata['source_scan_id'] = 'sast' + Sastattributes.id;
+                        sastdata['source_scan_id'] =  Sastattributes.id;
                         sastdata['detected_flaw_count'] = +Sastattributes.total_no_flaws;
                         sastdata['last_scan_date'] = new GlideDateTime(Sastattributes.last_scan_date);
                         sastdata['scan_summary_name'] = Sastattributes.app_name + ' ' + sastdata['last_scan_date'];
@@ -41,7 +41,7 @@ CheckmarxOneScanSummaryProcessor.prototype = Object.extendsObject(sn_vul.Applica
                         var attributes = appNode.getAttributes();
                         //map attributes from Checkmarx into the servicenow scan summary table
                         data['source_app_id'] = attributes.app_id;
-                        data['source_scan_id'] = 'sca' + attributes.id;
+                        data['source_scan_id'] =  attributes.id;
                         data['detected_flaw_count'] = +attributes.total_no_flaws;
                         data['last_scan_date'] = new GlideDateTime(attributes.last_scan_date);
                         data['scan_summary_name'] = attributes.app_name + ' ' + data['last_scan_date'];
@@ -104,13 +104,13 @@ CheckmarxOneScanSummaryProcessor.prototype = Object.extendsObject(sn_vul.Applica
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-08 12:56:43</sys_created_on>
         <sys_id>ec0e828f47f42110328ca368436d433b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>CheckmarxOneScanSummaryProcessor</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_ec0e828f47f42110328ca368436d433b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-10 05:54:21</sys_updated_on>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-05-23 14:56:22</sys_updated_on>
     </sys_script_include>
 </record_update>

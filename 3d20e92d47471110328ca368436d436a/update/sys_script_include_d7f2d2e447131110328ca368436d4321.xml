@@ -59,19 +59,19 @@ CheckmarxOneScanSummaryIntegration.prototype = Object.extendsObject(sn_vul.Appli
                 //sca scan summary
                 if (jsonLastScanSummResp.scans[item].engines.toString().includes("sca")) {
                     var scaresponsevul = this.UTIL.getScanSummaryInfo(this.IMPLEMENTATION, jsonLastScanSummResp.scans[item].id);
-                    scaScanSummaryAll += '<scan id="' + jsonLastScanSummResp.scans[item].id + '" app_id="' + appId +
+                    scaScanSummaryAll += '<scan id="' + 'sca' + jsonLastScanSummResp.scans[item].id + '" app_id="' + appId +
                         '" last_scan_date="' + this.UTIL.parseDate(jsonLastScanSummResp.scans[item].updatedAt) +
                         '" total_no_flaws="' + scaresponsevul +
-                        '" app_name="' + jsonLastScanSummResp.scans[item].projectName + '"/>';
+                        '" app_name="' + appId + '"/>';
                 }
 
                 //sast scan summary
                 if (jsonLastScanSummResp.scans[item].engines.toString().includes("sast")) {
                     var sastresponsevul = this.UTIL.getSastScanSummaryInfo(this.IMPLEMENTATION, jsonLastScanSummResp.scans[item].id);
-                    sastScanSummaryAll += '<scan id="' + jsonLastScanSummResp.scans[item].id + '" app_id="' + appId +
+                    sastScanSummaryAll += '<scan id="' + 'sast' + jsonLastScanSummResp.scans[item].id + '" app_id="' + appId +
                         '" last_scan_date="' + this.UTIL.parseDate(jsonLastScanSummResp.scans[item].updatedAt) +
                         '" total_no_flaws="' + sastresponsevul +
-                        '" app_name="' + jsonLastScanSummResp.scans[item].projectName + '"/>';
+                        '" app_name="' + appId + '"/>';
                 }
                 var date = new GlideDateTime(this.UTIL.parseDate(jsonLastScanSummResp.scans[item].updatedAt));
                 if (!this.LATEST || date > this.LATEST)
@@ -226,13 +226,13 @@ CheckmarxOneScanSummaryIntegration.prototype = Object.extendsObject(sn_vul.Appli
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-18 05:18:19</sys_created_on>
         <sys_id>d7f2d2e447131110328ca368436d4321</sys_id>
-        <sys_mod_count>144</sys_mod_count>
+        <sys_mod_count>145</sys_mod_count>
         <sys_name>CheckmarxOneScanSummaryIntegration</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_d7f2d2e447131110328ca368436d4321</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-10 05:54:03</sys_updated_on>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-05-23 14:55:23</sys_updated_on>
     </sys_script_include>
 </record_update>

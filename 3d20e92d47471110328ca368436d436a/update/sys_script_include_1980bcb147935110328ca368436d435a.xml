@@ -97,7 +97,7 @@ CheckmarxOneUtilBase.prototype = {
 			var limit_val = config.limit;
             var method = "post";
             var token = this.getAccessToken(accesscontrolbaseUrl, config, method, request);
-            var query = '/api/scans/?offset=' + offset + '&limit=' + limit_val + '&statuses=Completed&project-id=' + appId + '&from-date=' + last_run_date + '&sort=%2Bcreated_at&sort=%2Bstatus&field=scan-ids';
+            var query = '/api/scans/?offset=0&limit=1&statuses=Completed&project-id=' + appId + '&from-date=' + last_run_date + '&sort=%2Bcreated_at&sort=%2Bstatus&field=scan-ids';
         } catch (err) {
             gs.error(this.MSG + " getScanInfo: Error while getting the scan Ids.");
             throw err;
@@ -189,9 +189,9 @@ CheckmarxOneUtilBase.prototype = {
             var responseLastScanReport = this._makeRestApiCall(apibaseurl, configId, token, query, "get");
             var jsonLastScanReportResp = JSON.parse(responseLastScanReport.getBody());
             for (var item in jsonLastScanReportResp.results) {
-                if (jsonLastScanReportResp.results[item].type == "sast" || jsonLastScanReportResp.results[item].type == "sca") {
+                
                     count += 1;
-                }
+                
             }
         } catch (err) {
             gs.error(this.MSG + " getScanInfo: Error while getting the scan Ids.");
@@ -517,13 +517,13 @@ CheckmarxOneUtilBase.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-21 19:26:28</sys_created_on>
         <sys_id>1980bcb147935110328ca368436d435a</sys_id>
-        <sys_mod_count>139</sys_mod_count>
+        <sys_mod_count>140</sys_mod_count>
         <sys_name>CheckmarxOneUtilBase</sys_name>
         <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
         <sys_update_name>sys_script_include_1980bcb147935110328ca368436d435a</sys_update_name>
         <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
-        <sys_updated_on>2023-05-02 12:59:26</sys_updated_on>
+        <sys_updated_on>2023-05-23 14:57:15</sys_updated_on>
     </sys_script_include>
 </record_update>
