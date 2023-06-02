@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
             <sys_created_on>2023-04-27 04:52:28</sys_created_on>
-            <sys_id>95abc280976aa150026f72021153af44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Single Tenant</sys_name>
             <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>

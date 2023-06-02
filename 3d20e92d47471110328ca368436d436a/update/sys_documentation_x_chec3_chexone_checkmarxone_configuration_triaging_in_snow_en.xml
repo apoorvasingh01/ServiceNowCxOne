@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-02-28 04:04:07</sys_created_on>
-            <sys_id>2f545b5547516110328ca368436d4325</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Triaging In ServiceNow</sys_name>
             <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
