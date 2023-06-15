@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9b34deb397df2510026f72021153af28</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_vul_app_state_map">
+    <sn_vul_app_state_map action="INSERT_OR_UPDATE">
+        <source display_value="Checkmarx One Application Security">e5dffb5c47575110328ca368436d436b</source>
+        <source_state>NOT_EXPLOITABLE</source_state>
+        <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+        <sys_created_on>2023-06-15 03:54:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9b34deb397df2510026f72021153af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-06-15 03:54:58</sys_updated_on>
+        <target_snow_triage_state>1</target_snow_triage_state>
+        <target_snow_triage_substate/>
+        <target_state>3</target_state>
+        <target_substate>22</target_substate>
+    </sn_vul_app_state_map>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>apoorva.singh@checkmarx.com</sys_created_by>
+        <sys_created_on>2023-06-15 04:00:45</sys_created_on>
+        <sys_id>a9b596f397df2510026f72021153afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOT_EXPLOITABLE</sys_name>
+        <sys_package display_value="Checkmarx One Vulnerability Integration" source="x_chec3_chexone">3d20e92d47471110328ca368436d436a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Checkmarx One Vulnerability Integration">3d20e92d47471110328ca368436d436a</sys_scope>
+        <sys_update_name>sys_metadata_link_a9b596f397df2510026f72021153afbb</sys_update_name>
+        <sys_updated_by>apoorva.singh@checkmarx.com</sys_updated_by>
+        <sys_updated_on>2023-06-15 04:00:45</sys_updated_on>
+        <tablename>sn_vul_app_state_map</tablename>
+    </sys_metadata_link>
+</record_update>
